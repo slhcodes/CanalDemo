@@ -4,10 +4,11 @@ import com.alibaba.otter.canal.client.CanalConnectors;
 import com.alibaba.otter.canal.protocol.CanalEntry.*;
 import com.alibaba.otter.canal.protocol.Message;
 import com.google.protobuf.InvalidProtocolBufferException;
-import jakarta.annotation.Resource;
 import org.apache.commons.dbutils.DbUtils;
 import org.apache.commons.dbutils.QueryRunner;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.net.InetSocketAddress;
 import java.sql.Connection;

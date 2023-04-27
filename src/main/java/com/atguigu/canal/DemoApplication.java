@@ -1,10 +1,12 @@
 package com.atguigu.canal;
 
 import com.atguigu.canal.client.CanalClient;
-import jakarta.annotation.Resource;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import javax.annotation.Resource;
 
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
